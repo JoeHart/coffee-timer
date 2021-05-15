@@ -16,8 +16,7 @@
     "./src/**/*.{ts,js,jsx,tsx}": [
       "yarn lint --fix",
       "yarn format"
-    ],
-    "*.js": "eslint --cache --fix"
+    ]
   },
   "dependencies": {
     "@typescript-eslint/parser": "^4.23.0",

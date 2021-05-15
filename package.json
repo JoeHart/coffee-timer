@@ -10,12 +10,8 @@
     "start": "next start",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "postinstall": "husky install",
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [

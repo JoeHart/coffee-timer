@@ -10,3 +10,5 @@ Out the box has these set up:
 - Prettier
 - ESLint
 - Pre commit hooks with husky
+
+See what it looks like and click the boop on the [Test Deployment](https://my-next-ts-starter.vercel.app/)
